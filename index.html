@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Mad Movies Home</title>
+
+        <style>
+            .mainImage{
+                max-width: 100%;
+                height: auto;
+                background-color: rgb(140, 0, 255);
+                
+            }
+
+            .backgroundcolor {
+                background-color: rgb(0, 0, 0);
+            }
+
+            .titles {
+                color: rgb(5, 5, 116);
+                font-weight: 600;
+                text-shadow: 4px 4px 4px rgb(48, 47, 145);
+                
+            }
+            
+            .movieText {
+                font-size: 26px;
+                color: rgb(22, 0, 121);
+                text-decoration: underline;
+                text-shadow: 2px 2px 4px rgb(7, 6, 6);
+            }
+
+            .footer {
+                width: 90%;
+                height: 60px;
+                background-color: black;
+                color: white;
+                margin: 20px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-weight: 700;
+                text-shadow: 4px 4px 4px rgb(202, 191, 191);
+            }
+
+            .nav-link {
+                font-weight: 800;
+                font-size: 1.2em;
+                text-shadow: 2px 2px 4px rgb(1, 22, 92);
+            }
+
+            .paddingLeft {
+                margin-left: 75px;
+            }
+
+            .marginLeft {
+                margin-left: 65px;
+            }
+
+
+        
+        </style>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="file:///root/Downloads/fontawesome-free-5.12.1-web/css/all.css">
+
+  </head>
+  <body>
+      
+    <nav class="navbar navbar-expand-sm navbar-light bg-primary"> <!-- Start of navbar -->
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/images/madMoviesLogoSmall.png" alt="Responsive image"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html>Home<span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Movies</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="MadMoviesMoviesAnime.html">Anime</a>
+                        <a class="dropdown-item" href="MadMoviesMoviesBlockbusters.html">Blockbusters</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="MadMovieTrailers.html">Trailers <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="MadMovieSeries.html">Series <span class="sr-only">(current)</span></a>
+                </li>
+                
+            </ul>
+
+        </div>
+    </nav> <!-- End of navbar -->
+
+    <div class="backgroundcolor"> <!--Start of page-->
+        <div class="container mainImage">
+
+            <div class="mainImage"> <!-- Start of posters image -->
+                <center>
+
+                    <div class="mainImage">
+                        <img src=".. /images/postersSmall.png" class="img-fluid" alt="Responsive image">
+                    </div>
+            
+                </center>
+
+            </div> <!-- End of posters image -->
+
+            <div class="mainImage"> <!-- Start of movie button section-->
+            
+            
+            <div> <!-- Start of Top Movies Title -->
+                <br>
+                <h1 class="titles">Top Movies</h1>
+            </div> <!-- End of Top Movies Title -->
+                
+            <br>
+            <br>
+
+            
+            <div> <!-- Start of Buttons -->
+                <div>
+                    
+                    <div class="paddingLeft">
+                        <button data-section="movie1" class="paddingLeft btn btn-primary" id="button1"><img src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Movies/BlockBusters/infinity_war.jpeg"><br>Avengers Infinity War</button> <!-- Button1 -->
+                        <button data-section="movie2" class="btn btn-primary paddingLeft" id="button2"><img src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Movies/Anime/images/SFAMovie.jpg"><br>Street Figther Alpha</button> <!-- Button2 --> 
+                        <button data-section="movie3" class="btn btn-primary paddingLeft" id="button3"><img src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Movies/BlockBusters/brucelee.jpeg"><br>Dragon Bruce Lee story</button> <!-- Button3 --> 
+                    </div>
+                    
+                </div>
+            </div> <!-- End of Buttons -->
+
+            <br>
+            <br>
+
+            <div class="row"> <!-- Start of videos-->
+                <div class="col-sm-4"> <!-- Start of infinity war video-->
+                    <div id="infinityWar" class="panel panel-primary marginLeft">    
+                        <div class="panel-body">
+                            <video controls class="embed-responsive embed-responsive-1by1">
+
+                                <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Movies/BlockBusters/mp4/Avengers.Infinity.War" type="video/mp4"></source>
+                            
+                            </video>
+                            
+                        </div>
+                    </div>
+                </div> <!-- end of infinity war video-->
+                     
+                <div class="col-sm-3"> <!-- Start of street fighter video -->
+                        <div id="streetFighter" class="panel panel-primary marginLeft">
+                            <div class="panel-body">
+                                <video controls class="embed-responsive embed-responsive-1by1">
+
+                                    <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Movies/Anime/Street%20Fighter%20Alpha%20The%20Animated%20Movie%20%5BEnglish%5D.mp4" type="video/mp4"></source>
+                                    
+                                </video>
+                            </div>
+
+                        </div>
+                </div><!-- End of street fighter video-->
+                
+                <div class="col-sm-4"> <!-- Start of Dragon video -->
+                    <div id="dragon" class="panel panel-primary marginLeft">
+                        <div class="panel-body">
+                            <video controls class="embed-responsive embed-responsive-1by1">
+
+                                <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Movies/BlockBusters/mp4/Dragon-The%20Bruce%20Lee%20Story%5B1993%5D%5BDVD%20Rip%5D.avi" type="video/mp4"></source>
+                                
+                            </video>
+                        </div>
+
+                    </div>
+            </div><!-- End of Dragon video-->
+    
+
+            </div> <!-- End of video -->
+            <br>
+            <br>
+
+        </div>
+        
+    </div> <!-- End of page -->
+
+        <div class="col-md-10 col-sml-4 footer">
+            <p><img class="img-fluid" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/images/madMoviesLogoSmall.png" alt="Responsive image"> Mad Movies &ThickSpace; Copyright &copy; Mad Development</p>
+        </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script>
+
+        $(function() {
+
+            $('#infinityWar').hide();
+
+            $('#button1').on('click',function() {
+
+                $('#infinityWar').slideToggle(1000);
+                
+            });
+
+            $('#streetFighter').hide();
+
+            $('#button2').on('click',function() {
+
+                $('#streetFighter').slideToggle(1000);
+                
+            });
+
+            $('#dragon').hide();
+
+            $('#button3').on('click',function() {
+
+                $('#dragon').slideToggle(1000);
+                
+            });
+        
+        });
+    
+    </script>
+
+
+  </body>
+</html>

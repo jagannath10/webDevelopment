@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Mad Movies Movies/Anime</title>
+
+        <style>
+            .mainImage{
+                max-width: 100%;
+                height: auto;
+                background-color: rgb(140, 0, 255);
+                
+            }
+
+            .backgroundcolor {
+                background-color: rgb(0, 0, 0);
+            }
+
+            .titles {
+                color: rgb(5, 5, 116);
+                font-weight: 600;
+                text-shadow: 4px 4px 4px rgb(48, 47, 145);
+                padding-left: 50px;
+                
+            }
+            
+            .movieText {
+                font-size: 26px;
+                color: rgb(22, 0, 121);
+                text-decoration: underline;
+                text-shadow: 2px 2px 4px rgb(7, 6, 6);
+            }
+
+            .footer {
+                width: 90%;
+                height: 60px;
+                background-color: black;
+                color: white;
+                margin: 20px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-weight: 700;
+                text-shadow: 4px 4px 4px rgb(202, 191, 191);
+                padding-inline-end: 10px;
+            }
+
+            .nav-link {
+                font-weight: 800;
+                font-size: 1.2em;
+                text-shadow: 2px 2px 4px rgb(1, 22, 92);
+            }
+            .floatRigth {
+                float: right;
+                padding-right: 10px;
+                
+
+            }
+            .floatLeft {
+                float: left;
+                padding-left: 50px;
+                
+            }
+            .movieDescription {
+                float: left;
+                font-weight: 600;
+                font-size: 1.1em;
+                font-weight: 800;
+            }
+            
+
+        
+        </style>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="file:///root/Downloads/fontawesome-free-5.12.1-web/css/all.css">
+
+  </head>
+  <body>
+      
+    <nav class="navbar navbar-expand-sm navbar-light bg-primary"> <!-- Start of navbar -->
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/images/madMoviesLogoSmall.png" alt="Responsive image"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/webSite/MadMovieHome.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Movies</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item " href="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/webSite/MadMoviesMoviesAnime.html">Anime</a>
+                        <a class="dropdown-item" href="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/webSite/MadMoviesMoviesBlockbusters.html">Blockbusters</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/webSite/MadMovieTrailers.html">Trailers <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/webSite/MadMovieSeries.html">Series <span class="sr-only">(current)</span></a>
+                </li>
+                
+            </ul>
+
+            
+        </div>
+    </nav> <!-- End of navbar -->
+
+    <div class="backgroundcolor"> <!--Start of page-->
+        <div class="container mainImage">
+
+            <div class="mainImage"> <!-- Start of movie button section-->
+            
+            
+                <div> <!-- Start of Title -->
+                    <br>
+                    <h1 class="titles">Series</h1>
+                </div> <!-- End of Title -->
+                    
+                <br>
+                <br> 
+                
+                <div class="container row"> <!-- Start Street Fighter series -->
+
+
+                    <div class="foatLeft col-md-3"><!-- Start Street Fighter series image button-->
+                        <button data-section="series1" class="paddingLeft btn btn-primary" id="seriesbtn1"><img src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/streetFighter.jpg"><br>Street Fighter<br>Assassin's Fist</button> <!-- Button1 -->
+                    </div> <!-- End Street Fighter series image button -->
+
+
+                    <div class="floatRigth col-md-2" id="seasonRowSt"> <!-- Start Street Fighter series season row-->
+                        <button data-section="series1" class="paddingLeft btn btn-primary" id="season1btn">Season 1</button> <!-- Button season 1-->
+                    </div> <!-- End Street Fighter series season row-->
+
+
+                    <div class="floatRigth col-md-2" id="episodeRowSt"> <!-- Start Street Fighter series episode row-->
+                        <button data-section="series1" class="paddingLeft btn btn-dark" id="episode1Btn">Episode1</button> <!-- Button epi 1-->
+                        <br> 
+                        <br> 
+                        <button data-section="series1" class="paddingLeft btn btn-dark" id="episode2Btn">Episode2</button> <!-- Button epi 2 -->
+                        <br> 
+                        <br> 
+                        <button data-section="series1" class="paddingLeft btn btn-dark" id="episode3Btn">Episode3</button> <!-- Button epi 3 -->
+
+                    </div> <!-- End Street Fighter series episode row-->
+
+
+                    <div class="floatRigth col-md-5"> <!-- Start Street Fighter series videos row-->
+                        <button data-section="series1" class="paddingLeft btn btn-dark col-md-8 col-sm-3" id="streetFighterAssFst1"><video controls class="embed-responsive embed-responsive-1by1">
+    
+                            <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/Street%20fighter/Street%20Fighter%20Assassin's%20Fist%2001%20Beginnings%20(1920x1080)%20%5BPhr0stY%5D.mkv" type="video/mp4"></source>
+                        
+                        </video>Episode 1</button> <!--Button video episode 1-->
+
+                        <button data-section="series1" class="paddingLeft btn btn-dark col-md-8 col-sm-3" id="streetFighterAssFst2"><video controls class="embed-responsive embed-responsive-1by1">
+    
+                            <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/Street%20fighter/Street%20Fighter%20Assassin's%20Fist%2002%20Round%201%20Fight!%20(1920x1080)%20%5BPhr0stY%5D.mkv" type="video/mp4"></source>
+                        
+                        </video>Episode 2</button> <!--Button video episode 2-->
+                       
+                        <button data-section="series1" class="paddingLeft btn btn-dark col-md-8 col-sm-3" id="streetFighterAssFst3"><video controls class="embed-responsive embed-responsive-1by1">
+    
+                            <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/Street%20fighter/mp4/Street%20Fighter%20Assassin's%20Fist%2003%20Satsui%20No%20Hado%20(1920x1080)%20%5BPhr0stY%5D.mkv" type="video/mp4"></source>
+                        
+                        </video>Episode 3</button> <!--Button video episode 3-->
+                       
+                    </div> <!-- End Street Fighter series videos row-->
+
+                    
+                </div> <!-- End Street Fighter series-->
+
+
+                <br>
+                <br>
+
+
+                <!-- Start New Teenage Mutant Ninja Turtles series -->
+                <div class="container row"> <!-- Start New Teenage Mutant Ninja Turtles series -->
+
+
+                    <div class="foatLeft col-md-3"><!-- Start New Teenage Mutant Ninja Turtless image button-->
+                        <button data-section="series2" class="paddingLeft btn btn-primary" id="tmntbtn1"><img src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/ninjaTurtles.jpg"><br>Street Fighter<br>New Teenage Mutant Ninja Turtles</button> <!-- Button1 -->
+                    </div> <!-- End Street Fighter series image button -->
+
+
+                    <div class="floatRigth col-md-2" id="tmntSeasonRow"> <!-- Start New Teenage Mutant Ninja Turtles season row-->
+                        <button data-section="series2" class="paddingLeft btn btn-primary" id="tmntSeason1btn">Season 1</button> <!-- Button season 1-->
+                        <br>
+                        <br>
+
+                    </div> <!-- End New Teenage Mutant Ninja Turtlesseries season row-->
+
+
+                    <div class="floatRigth col-md-2" id="tmntEpisodeRowSt"> <!-- Start  New Teenage Mutant Ninja Turtles episode row-->
+                        <!-- Season1 -->
+                        <button data-section="series2" class="paddingLeft btn btn-dark" id="tmntEpisode1Btn">Episode1</button> <!-- Button epi 1-->
+                        <br> 
+                        <br> 
+                        <button data-section="series2" class="paddingLeft btn btn-dark" id="tmntEpisode2Btn">Episode2</button> <!-- Button epi 2 -->
+                        <br> 
+                        <br> 
+                        <button data-section="series2" class="paddingLeft btn btn-dark" id="tmntEpisode3Btn">Episode3</button> <!-- Button epi 3 -->
+                        <br> 
+                        <br> 
+                        <button data-section="series2" class="paddingLeft btn btn-dark" id="tmntEpisode4Btn">Episode4</button> <!-- Button epi 3 -->
+                        <br> 
+                        <br> 
+                        <button data-section="series2" class="paddingLeft btn btn-dark" id="tmntEpisode5Btn">Episode5</button> <!-- Button epi 3 -->
+                        <br> 
+                        <br> 
+                        <button data-section="series2" class="paddingLeft btn btn-dark" id="tmntEpisode6Btn">Episode6</button> <!-- Button epi 3 -->
+                        <br> 
+                        <br> 
+                        <button data-section="series2" class="paddingLeft btn btn-dark" id="tmntEpisode7Btn">Episode7</button> <!-- Button epi 3 -->
+                    </div>
+                    
+
+                    <div class="floatRigth col-md-5"> <!-- Start New Teenage Mutant Ninja Turtles Season1 videos row-->
+                        <button data-section="series2" class="paddingLeft btn btn-dark col-md-8 col-sm-3" id="tmntS1E1"><video controls class="embed-responsive embed-responsive-1by1">
+    
+                            <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/Tartarugas%20Ninjas%20Season%201/Teenage%20Mutant%20Ninja%20Turtles%20-%20Season%201%20-%20Episode%201%20-%20Things%20Change.mp4" type="video/mp4"></source>
+                        
+                        </video>Episode 1</button> <!--Button video episode 1-->
+
+                        <button data-section="series2" class="paddingLeft btn btn-dark col-md-8 col-sm-3" id="tmntS1E2"><video controls class="embed-responsive embed-responsive-1by1">
+    
+                            <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/Tartarugas%20Ninjas%20Season%201/Teenage%20Mutant%20Ninja%20Turtles%20-%20Season%201%20-%20Episode%202%20-%20A%20Better%20Mousetrap.mp4" type="video/mp4"></source>
+                        
+                        </video>Episode 2</button> <!--Button video episode 2-->
+                       
+                        <button data-section="series2" class="paddingLeft btn btn-dark col-md-8 col-sm-3" id="tmntS1E3"><video controls class="embed-responsive embed-responsive-1by1">
+    
+                            <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/Tartarugas%20Ninjas%20Season%201/Teenage%20Mutant%20Ninja%20Turtles%20-%20Season%201%20-%20Episode%203%20-%20Attack%20of%20the%20Mousers.mp4" type="video/mp4"></source>
+                        
+                        </video>Episode 3</button> <!--Button video episode 3-->
+
+                        <button data-section="series2" class="paddingLeft btn btn-dark col-md-8 col-sm-3" id="tmntS1E4"><video controls class="embed-responsive embed-responsive-1by1">
+    
+                            <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/Tartarugas%20Ninjas%20Season%201/Teenage%20Mutant%20Ninja%20Turtles%20-%20Season%201%20-%20Episode%204%20-%20Meet%20Casey%20Jones.mp4" type="video/mp4"></source>
+                        
+                        </video>Episode 4</button> <!--Button video episode 4-->
+
+                        <button data-section="series2" class="paddingLeft btn btn-dark col-md-8 col-sm-3" id="tmntS1E5"><video controls class="embed-responsive embed-responsive-1by1">
+    
+                            <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/Tartarugas%20Ninjas%20Season%201/Teenage%20Mutant%20Ninja%20Turtles%20-%20Season%201%20-%20Episode%205%20-%20Nano.mp4" type="video/mp4"></source>
+                        
+                        </video>Episode 5</button> <!--Button video episode 5-->
+
+                        <button data-section="series2" class="paddingLeft btn btn-dark col-md-8 col-sm-3" id="tmntS1E6"><video controls class="embed-responsive embed-responsive-1by1">
+    
+                            <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/Tartarugas%20Ninjas%20Season%201/Teenage%20Mutant%20Ninja%20Turtles%20-%20Season%201%20Episode%206%20-%20Darkness%20on%20the%20Edge%20of%20Town.mp4" type="video/mp4"></source>
+                        
+                        </video>Episode 6</button> <!--Button video episode 6-->
+
+                        <button data-section="series2" class="paddingLeft btn btn-dark col-md-8 col-sm-3" id="tmntS1E7"><video controls class="embed-responsive embed-responsive-1by1">
+    
+                            <source class="embed-responsive-item" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/Series/Tartarugas%20Ninjas%20Season%201/Teenage%20Mutant%20Ninja%20Turtles%20-%20Season%201%20Episode%207%20-%20The%20Way%20of%20Invisibility.mp4" type="video/mp4"></source>
+                        
+                        </video>Episode 7</button> <!--Button video episode 7-->
+                       
+                    </div> <!-- End New Teenage Mutant Ninja Turtles videos row-->
+
+                    
+                </div> <!-- End New Teenage Mutant Ninja Turtles series-->
+
+                
+                
+            </div>          
+                        
+
+            <br>
+            <br>
+            <div class="mainImage"> <!-- Start of posters image -->
+                <center>
+
+                    <div class="mainImage">
+                        <h1>----------------------</h1>
+                    </div>
+                    <br>
+            
+                </center>
+
+            </div> <!-- End of posters image -->
+        </div>
+        <br>
+        <br>
+        <div class="col-md-10 col-sml-4 footer">
+            <p><img class="img-fluid" src="file:///root/Estro/School/Web_Development/special%20projects/MadMovies/images/madMoviesLogoSmall.png" alt="Responsive image"> Mad Movies &ThickSpace; Copyright &copy; Mad Development</p>
+        </div>
+    
+        
+    </div> <!-- End of page -->
+
+       
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script>
+
+        alert ("Press the image to see series!\n Enjoy")
+
+        $(function() {
+
+            //-----Start  of hidden divs------
+
+            $('#seasonRowSt').hide();
+
+            $('#episodeRowSt').hide();
+
+            $('#streetFighterAssFst1').hide();
+
+            $('#streetFighterAssFst2').hide();
+
+            $('#streetFighterAssFst3').hide();
+
+            //------End of hidden divs---------
+
+            //------> Series image button <--------
+            $('#seriesbtn1').on('click',function() {
+
+                $('#seasonRowSt').slideToggle(1000);
+                    
+            });
+
+            //------> Seasons button <--------
+            $('#season1btn').on('click',function() {
+
+                $('#episodeRowSt').slideToggle(1000);
+
+            });
+
+            //------> Episode button <--------
+            $('#episode1Btn').on('click',function() {
+
+                $('#streetFighterAssFst1').slideToggle(1000);
+                
+            });
+
+            $('#episode2Btn').on('click',function() {
+
+                $('#streetFighterAssFst2').slideToggle(1000);
+
+            });
+
+            $('#episode3Btn').on('click',function() {
+
+                $('#streetFighterAssFst3').slideToggle(1000);
+
+            });
+
+
+        });
+
+        $(function() {
+
+            //-----Start  of hidden divs------
+
+            /*$('#tmntSeasonRow').hide();
+
+            $('#tmntEpisodeRowSt').hide();
+
+            //$('#tmntS2EpisodeRowSt').hide();
+
+            $('#tmntS1E1').hide();
+
+            $('#tmntS1E2').hide();
+
+            $('#tmntS1E3').hide();
+
+            $('#tmntS1E4').hide();
+
+            $('#tmntS1E5').hide();
+
+            $('#tmntS1E6').hide();
+
+            $('#tmntS1E7').hide();
+
+            //------End of hidden divs---------
+
+            //------> Series image button <--------
+            $('#tmntbtn1').on('click',function() {
+
+                $('#tmntSeasonRow').slideToggle(1000);
+                    
+            });
+
+            //------> Seasons button <--------
+            $('#tmntSeasonRow').on('click',function() {
+
+                $('#tmntEpisodeRowSt').slideToggle(1000);
+
+            });
+
+            //------> S1 Episode button <--------
+            $('#tmntEpisode1Btn').on('click',function() {
+
+                $('#tmntS1E1').slideToggle(1000);
+                
+            });
+
+            $('#tmntEpisode2Btn').on('click',function() {
+
+                $('#tmntS1E2').slideToggle(1000);
+
+            });
+
+            $('#tmntEpisode3Btn').on('click',function() {
+
+                $('#tmntS1E3').slideToggle(1000);
+
+            });
+
+            $('#tmntEpisode4Btn').on('click',function() {
+
+                $('#tmntS1E4').slideToggle(1000);
+
+            });
+
+            $('#tmntEpisode5Btn').on('click',function() {
+
+                $('#tmntS1E5').slideToggle(1000);
+
+            });
+
+            $('#tmntEpisode6Btn').on('click',function() {
+
+                $('#tmntS1E6').slideToggle(1000);
+
+            });
+
+            $('#tmntEpisode7Btn').on('click',function() {
+
+                $('#tmntS1E7').slideToggle(1000);
+
+            });
+            //-------> End of S1 Episode Buttons <------
+
+            
+        });
+        */
+        
+        
+
+               
+    </script>
+
+
+  </body>
+</html>
